@@ -1,0 +1,51 @@
+element.style {
+top: 944px;
+left: 276px;
+opacity: 1;
+}
+
+/*fullmenu.css:495*/
+#active_preview {
+width: auto !important;
+max-width: inherit !important;
+min-width: inherit !important;
+}
+
+#active_preview {
+margin-right: 0px !important;
+text-align: left !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+height: 413px;
+}
+
+/*food.css:196*/
+#active_preview {
+position: absolute;
+z-index: 999;
+height: 413px;
+top: 0px;
+left: 0px;
+background: transparent url(popout_bg_left.png) no-repeat left top;
+padding: 0px 0px 0px 30px;
+}
+
+#active_preview #inner_wrapper {
+width: auto !important;
+max-width: inherit !important;
+min-width: inherit !important;
+}
+
+#active_preview #inner_wrapper {
+float: left;
+height: 413px;
+min-width: 210px;
+max-width: 400px;
+width: auto;
+padding: 30px 30px 0px 5px;
+background: transparent url(popout_bg_right.png) no-repeat right top;
+}
+
+#active_preview div {
+text-align: left !important;
+}

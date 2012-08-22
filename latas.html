@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>¿Hay latas en la pared?</title>
+    <meta charset = "utf-8">
+  </head>
+  <body>
+    <h1>La verdadera canción de las latas en la pared</h1>
+    <script>
+      var letra = "";
+      var cantidad = 100;
+      var bebida = "cerveza";
+      //document.title.value("Hay " + cantidad + " latas de " + bebida + " en la pared");
+      //document.write(document.title.innerHTML);
+
+      while (cantidad > 0) {
+        if (cantidad == 1) {
+          letra = letra + "Hay " + cantidad + " lata de " + bebida + " en la pared.";
+          letra = letra + "Hay " + cantidad + " lata de " + bebida + " en la pared.";
+          letra = letra + "Cogelá y sal corriendo.<br />";
+        } else {
+          letra = letra + "Hay " + cantidad + " latas de " + bebida + " en la pared.";
+          letra = letra + "Hay " + cantidad + " latas de " + bebida + " en la pared.";
+          letra = letra + "Coge una y pasalá.<br />";
+        }
+        cantidad = cantidad - 1;
+      }
+      document.write(letra);
+    </script>
+    <p id="cancion"></p>
+  </body>
+</html>
+  
